@@ -1,0 +1,14 @@
+:root{
+    --first-color: #FBAA5A;
+    --second-color: #FB72AD;
+    --third-color: #9D7EBE;
+}
+
+h2{
+    text-align: center;
+    color: #FBAA5A;
+}
+
+.container{
+    width: 300px;
+}
