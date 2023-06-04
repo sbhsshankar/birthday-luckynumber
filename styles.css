@@ -1,14 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap');
+
+
+
 :root{
-    --first-color: #FBAA5A;
-    --second-color: #FB72AD;
-    --third-color: #9D7EBE;
+    --first-color: #F37413;
+    --second-color: #F7A400;
+    --third-color: #C8E4EE;
+    --fourth-color: #F38701;
+}
+
+body{
+    background-color: var(--third-color);
 }
 
 h2{
     text-align: center;
-    color: #FBAA5A;
+    color: var(--first-color); 
 }
 
+.description{
+    color: var(--fourth-color);
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.description2{
+    color: var(--fourth-color);
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
 .container{
-    width: 300px;
+    width: 50%;
+    margin: auto;
+}
+
+input,label{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: var(--first-color);
+    border-radius: 0.5rem;
+}
+
+input{
+    margin-bottom: 0.5rem;
+    width: 100%
+}
+
+#lucky-number{
+    margin-bottom: 2rem;
+}
+
+#button-check{
+    background-color: var(--fourth-color);
+    padding: 0.5rem 2rem;
+    font-size: medium;
+    display: block;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    
+}
+
+#output-box{
+    text-align: center;
+    width: 100%;
+    background-color: var(--fourth-color);
+    padding: 0.5rem 1rem;
+    font-size: large;
 }
